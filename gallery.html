@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery</title>
+
+      <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="Logo" style="width: 30px; height: 30px; margin-right: 10px;">
+            Navbar
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a> 
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="./gallery.html">Gallery <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="container my-4">
+          <h1 class="text-center">Gallery</h1>
+        </div>
+
+        <div class="container my-4">
+          <div class="row">
+            <div class="col-md-3 col-6 mb-4">
+              <a href="images/photo1.jpg" data-lightbox="gallery" data-title="Pokémon Adventure 1">
+                <img src="images/photo1.jpg" class="img-fluid rounded" alt="Pokémon Adventure 1">
+              </a>
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+              <a href="images/photo2.jpg" data-lightbox="gallery" data-title="Pokémon Adventure 2">
+                <img src="images/photo2.jpg" class="img-fluid rounded" alt="Pokémon Adventure 2">
+              </a>
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+              <a href="images/photo3.jpg" data-lightbox="gallery" data-title="Pokémon Adventure 3">
+                <img src="images/photo3.jpg" class="img-fluid rounded" alt="Pokémon Adventure 3">
+              </a>
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+              <a href="images/photo4.jpg" data-lightbox="gallery" data-title="Pokémon Adventure 4">
+                <img src="images/photo4.jpg" class="img-fluid rounded" alt="Pokémon Adventure 4">
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <footer>
+        <div class="row">
+          <div class="col-lg-6"><img src="images/logo.png" width="30" height="30" alt="Logo"></div>
+          <div class="col-lg-6">Copyrights</div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script> 
+    <script src="js/bootstrap-4.4.1.js"></script>
+    <script src="js/lightbox.js"></script>
+  </body>
+</html>
