@@ -6,7 +6,7 @@ $Email = "";
 $Message = "";
 
 //$EmailFrom = "email@email.com";
-$EmailTo = "suemail@email.com";
+$EmailTo = "janice.rivera11@upr.edu";
 $Subject = "Website:";
 $Name = Trim(stripslashes($_POST['name'])); 
 $Tel = Trim(stripslashes($_POST['Tel'])); 
